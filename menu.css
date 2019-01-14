@@ -1,0 +1,114 @@
+nav > ul {
+    width: 100%;
+    list-style: none;
+    /* padding: 0;
+    margin: 0; */
+    /* background-image: linear-gradient(#333, #aaaaaa); */
+}
+
+.main-nav-container {
+    width: 100%; 
+    height: 105px; 
+    padding: 0;
+    /* background-color: red; */
+    /* background-image: linear-gradient(#333, #aaaaaa); */
+    background-image: linear-gradient(to bottom, rgb(144, 144, 144) 90%, rgb(170,170,170));
+}
+
+nav.main-nav {
+    width: 900px;
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+    top: 72px;
+    height: 33px;
+    margin: 0 143px 0 0;
+}
+
+/* nav.dropdown-content {
+    background-image: linear-gradient(to bottom, rgb(144, 144, 144) 90%, rgb(170,170,170));
+} */
+
+nav > ul > li {
+    padding: 0px;
+    list-style-type: none;
+}
+
+nav.main-nav > ul > li {
+    display: inline-block;
+}
+
+nav > ul > li > a {
+/* text-decoration: none; */
+display: block;
+color: #fff;
+font-size: 1em;
+font-weight: bold;
+text-align: right;
+padding: 5px 0;
+}
+
+nav.dropdown-content > ul > li {
+/* border-top: 1px solid #ddd; */
+    margin: 2px 0;
+    padding: 0 5px;
+    background-image: linear-gradient(to top, rgb(144, 144, 144) 90%, rgb(170,170,170));
+}
+
+/* nav.dropdown-content > ul > li:first-child {
+border-top: 0;
+} */
+
+nav.dropdown-content > ul > li:hover {
+background-color: #bcbcbc;
+text-decoration: underline;
+color: #005CA0; 
+}
+
+.dropdown {    
+display: inline-block;
+position: relative;
+}
+.dropdown-content ul {
+    width: 100%;
+    /* background-image: linear-gradient(to top, rgb(144, 144, 144) 90%, rgb(170,170,170)); */
+    background-image: linear-gradient(to top,rgb(170,170,170) 10%,  rgb(144, 144, 144));
+}
+.dropdown-content {
+    display: none;
+    position: absolute;  
+    /* background-color: darkmagenta; */
+/* box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.7); */
+}
+
+.dropdown:hover > .dropdown-content {
+    display: block;
+}
+
+a.home {
+    height: 17px;
+    width: 17px;
+    padding: 5px 0;
+    background: url(imgs/menu_home.png) no-repeat 0 top;    
+}
+
+a.home:hover, a.home.active {
+    background: url(imgs/menu_home.png) no-repeat -17px top;    
+}
+
+a.logo {
+    display: block;
+    width: 142px;
+    height: 93px;
+    position: absolute;
+    bottom: -20px;
+    right: -8px;
+    background: url(/imgs/paz_logo.png) no-repeat 0 0;
+}
+
+.pipe {
+    color: #a7a7a7;
+    width: 10px;
+    text-align: center;
+    margin: 0 16px;
+} 

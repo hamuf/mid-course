@@ -14,8 +14,6 @@ body {
 }
 
 header {
-    /* background: #909090; */
-    /* lighter: #aaaaaa */
     background-image: linear-gradient(#333, #aaaaaa);
     height: 105px;
     width: 100%;
@@ -82,135 +80,45 @@ a:hover {
     background-color: beige;  
 }
 
-/* ul.btn-list {
-    border-top: 1px solid #dedede;
-}
-li.btn-item {
-    list-style-type: none;
-    
-} */
-
 .contact-btn {
     text-decoration: none;
 
 }
-/* Horizontl Menu Start */
-nav > ul {
+.contact-form {
     width: 100%;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  nav.main-nav {
-    width: 900px;
-    text-align: center;
-    padding: 20px 20px;
-    font-size: 15px;
-    position: absolute;
-    bottom: 0;
-    margin: 0 143px 0 0;
-  }
-  
-  nav.dropdown-content {
-    background-color: #909090;
-  }
-  
-  nav > ul > li {
-    padding: 0px;
-    list-style-type: none;
-  }
-  
-  nav.main-nav > ul > li {
-    display: inline-block;
-  }
-  
-  nav > ul > li > a {
-    /* text-decoration: none; */
-    display: block;
-    color: #fff;
-    font-size: 1em;
-    font-weight: bold;
-    text-align: right;
-    padding: 5px 0;
-  }
-  
-  /* nav.main-nav > ul > li > a {
-    color: yellow;
-    padding: 10px;
-  }
-  
-  nav.dropdown-content > ul > li > a {
-    margin-top: 5px;  תת- הקטגוריות צריכות להיות בעלות שוליים עליונים בגודל 5 פיקסלים 
-    padding: 5px;
-    color: darkblue;
-  } */
-  
-  /* nav.main-nav > ul > li > a:hover {
-    background-color: yellow;
-    color: darkblue;
-  }
-  nav.dropdown-content > ul > li > a:hover {
-    background-color: darkblue;
-    color: yellow;
-  } */
+}
 
-   
-  nav.dropdown-content > ul > li {
-      border-top: 1px solid #ddd;
-      margin: 2px 0;
-      padding: 0 5px;
-  }
-  
-  nav.dropdown-content > ul > li:first-child {
-      border-top: 0;
-  }
+.contact-form input[type=text] {
+    width: 160px;
+    padding: 3px;
+    border: 1px solid #808992;
+}
+.contact-form label {
+    width: 75px;
+}
 
-  nav.dropdown-content > ul > li > a:hover {
-    background-color: #bcbcbc;
-    text-decoration: underline;
-    color: #005CA0; 
-  }
-  
-  .dropdown {    
-    display: inline-block;
-    position: relative;
-  }
-  .dropdown-content ul {
-      width: 100%;
-  }
-  .dropdown-content {
-    display: none;
-    position: absolute;  
-    background-color: darkmagenta;
-    /* box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.7); */
-  }
-  
-  .dropdown:hover > .dropdown-content {
-    display: block;
-  }
- 
-  /* contact - first column */
+
+/* contact - first column */
 .btn-list > li > a {
     width: 100%;
 }
-  /* contact - first column - END */
- 
+/* contact - first column - END */
+    
 .bread-crumbs {
     font-size: 12px;
     color: #5c5c5c;
     margin-bottom: 25px;
     display: inline-block;
 }
-
+    
 .bread-crumbs > span {
     padding: 0 0 0 5px;
 }
-  
+    
 .bread-crumbs > span > a:hover {
     text-decoration: underline;
 }
-
+    
 .form-container {
     border-style: solid solid none solid;
     border-width: 1px;
@@ -218,44 +126,9 @@ nav > ul {
     width: 347px;
     min-height: 332px;
     padding: 12px 18px; 
-    
+
     /* bg & radius */
     /* background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(49%,#f7f7f7), color-stop(51%,#f7f7f7), color-stop(100%,#ececec)); */
     background: -webkit-linear-gradient(top, #ffffff 0%,#f7f7f7 49%,#f7f7f7 51%,#ececec 100%);
 }
-/* Horizontl Menu End */
-
-/* menu and sub menu link have the same styling */
-/* nav > ul {
-    width: 100%;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-header > nav > ul > li {
-    display: inline-block;
-}
-header > nav > ul > li > a {
-    color: white;
-    text-decoration: none;
-    font-size: 1em;
-    font-weight: bold;
-    display: inline-block;
-}
-
-nav > ul > li > a:hover {
-    color: #005CA0;
-    text-decoration: underline;
-}
-
-nav > ul > li > ul > li {
-    display: none;
-}
-*/
-.pipe {
-    color: #333;
-    width: 10px;
-    text-align: center;
-    margin: 0 16px;
-} 
+    /* Horizontl Menu End */
