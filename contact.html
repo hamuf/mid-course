@@ -4,58 +4,138 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="header.css">
     <script src="script.js"></script>
     <title>Mid Exercise - Paz Contact us</title>
 </head>
 
 <body>
+    <!-- Generic Header start -->
     <header>
-        <nav class="main-nav">
+            <div class="main-nav-container">
+        <a class="logo" href="index.html"></a>
+        <div class="search">
+            <div class="search-container">
+                <input name="search-box" type="text" placeholder="רשום מילת חיפוש" id="search-box" />
+            </div>
+            <a href="#">&nbsp;&nbsp;</a>
+        </div>
+
+        <div class="lang">
             <ul>
-                <li class="dropdown">
-                    <a href="#">אודות</a>
-                    <nav class="dropdown-content">
-                        <ul>
-                            <li><a href="#">אודות</a></li>
-                            <li><a href="#">היסטוריה</a></li>
-                            <li><a href="#">חזון&nbsp;וערכים</a></li>
-                            <li><a href="#">מבנה&nbsp;הקבוצה</a></li>
-                            <li><a href="#">חברי&nbsp;דירקטוריון</a></li>
-                            <li><a href="#">הנהלת&nbsp;הקבוצה</a></li>
-                            <li><a href="#">פרסים&nbsp;והוקרה</a></li>
-                        </ul>
-                    </nav>
-                </li>
-                <li class="pipe">|</li>
-                <li class="dropdown">
-                    <a href="#">חטיבות</a>
-                    <nav class="dropdown-content">
-                        <ul>
-                            <li><a href="#">חטיבות</a></li>
-                            <li><a href="#">קמעונאות&nbsp;ומסחר</a></li>
-                            <li><a href="#">תעשיות&nbsp;ושירותים</a></li>
-                            <li><a href="#">זיקוק</a></li>
-                        </ul>
-                    </nav>
-                </li>
-                <li class="pipe">|</li>
-                <li class="dropdown">
-                    <a href="#">אחריות תאגידית</a>
-                    <nav class="dropdown-content">
-                        <ul>
-                            <li><a href="#">אחריות&nbsp;תאגידית</a></li>
-                            <li><a href="#">הקוד&nbsp;האתי</a></li>
-                            <li><a href="#">מעורבות&nbsp;חברתית</a></li>
-                            <li><a href="#">נגישות</a></li>
-                            <li><a href="#">איכות&nbsp;הסביבה&nbsp;ובטיחות</a></li>
-                            <li><a href="#">דירוג&nbsp;מעלה</a></li>
-                        </ul>
-                    </nav>
+                <li>
+                    <a href="#">English
+                    </a>
                 </li>
             </ul>
-        </nav>
-    </header>
+        </div>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" class="home active"></a></li>
+                    <!--class is "home active" on home page-->
+                    <li class="pipe">|</li>
+                    <li class="dropdown">
+                        <a href="#">אודות</a>
+                        <nav class="dropdown-content">
+                            <ul>
+                                <li><a href="#">אודות</a></li>
+                                <li><a href="#">היסטוריה</a></li>
+                                <li><a href="#">חזון&nbsp;וערכים</a></li>
+                                <li><a href="#">מבנה&nbsp;הקבוצה</a></li>
+                                <li><a href="#">חברי&nbsp;דירקטוריון</a></li>
+                                <li><a href="#">הנהלת&nbsp;הקבוצה</a></li>
+                                <li><a href="#">פרסים&nbsp;והוקרה</a></li>
+                            </ul>
+                        </nav>
+                    </li>
+                    <li class="pipe">|</li>
+                    <li class="dropdown">
+                        <a href="#">חטיבות</a>
+                        <nav class="dropdown-content">
+                            <ul>
+                                <li><a href="#">חטיבות</a></li>
+                                <li><a href="#">קמעונאות&nbsp;ומסחר</a></li>
+                                <li><a href="#">תעשיות&nbsp;ושירותים</a></li>
+                                <li><a href="#">זיקוק</a></li>
+                            </ul>
+                        </nav>
+                    </li>
+                    <li class="pipe">|</li>
+                    <li class="dropdown">
+                        <a href="#">אחריות תאגידית</a>
+                        <nav class="dropdown-content">
+                            <ul>
+                                <li><a href="#">אחריות&nbsp;תאגידית</a></li>
+                                <li><a href="#">הקוד&nbsp;האתי</a></li>
+                                <li><a href="#">מעורבות&nbsp;חברתית</a></li>
+                                <li><a href="#">נגישות</a></li>
+                                <li><a href="#">איכות&nbsp;הסביבה&nbsp;ובטיחות</a></li>
+                                <li><a href="#">דירוג&nbsp;מעלה</a></li>
+                            </ul>
+                        </nav>
+                    </li>
+                    <li class="pipe">|</li>
+                    <li class="dropdown">
+                        <a href="#">קשרי משקיעים</a>
+                        <nav class="dropdown-content">
+                            <ul>
+                                <li><a href="#">אחריות&nbsp;תאגידית</a></li>
+                                <li><a href="#">הקוד&nbsp;האתי</a></li>
+                                <li><a href="#">מעורבות&nbsp;חברתית</a></li>
+                                <li><a href="#">נגישות</a></li>
+                                <li><a href="#">איכות&nbsp;הסביבה&nbsp;ובטיחות</a></li>
+                                <li><a href="#">דירוג&nbsp;מעלה</a></li>
+                            </ul>
+                        </nav>
+                    </li>
+                    <li class="pipe">|</li>
+                    <li class="dropdown">
+                        <a href="#">התחנות שלנו</a>
+                        <nav class="dropdown-content">
+                            <ul>
+                                <li><a href="#">אחריות&nbsp;תאגידית</a></li>
+                                <li><a href="#">הקוד&nbsp;האתי</a></li>
+                                <li><a href="#">מעורבות&nbsp;חברתית</a></li>
+                                <li><a href="#">נגישות</a></li>
+                                <li><a href="#">איכות&nbsp;הסביבה&nbsp;ובטיחות</a></li>
+                                <li><a href="#">דירוג&nbsp;מעלה</a></li>
+                            </ul>
+                        </nav>
+                    </li>
+                    <li class="pipe">|</li>
+                    <li class="dropdown">
+                        <a href="#">קריירה</a>
+                        <nav class="dropdown-content">
+                            <ul>
+                                <li><a href="#">אחריות&nbsp;תאגידית</a></li>
+                                <li><a href="#">הקוד&nbsp;האתי</a></li>
+                                <li><a href="#">מעורבות&nbsp;חברתית</a></li>
+                                <li><a href="#">נגישות</a></li>
+                                <li><a href="#">איכות&nbsp;הסביבה&nbsp;ובטיחות</a></li>
+                                <li><a href="#">דירוג&nbsp;מעלה</a></li>
+                            </ul>
+                        </nav>
+                    </li>
+                    <li class="pipe">|</li>
+                    <li class="dropdown">
+                        <a href="#">חדשות ומדיה</a>
+                        <nav class="dropdown-content">
+                            <ul>
+                                <li><a href="#">אחריות&nbsp;תאגידית</a></li>
+                                <li><a href="#">הקוד&nbsp;האתי</a></li>
+                                <li><a href="#">מעורבות&nbsp;חברתית</a></li>
+                                <li><a href="#">נגישות</a></li>
+                                <li><a href="#">איכות&nbsp;הסביבה&nbsp;ובטיחות</a></li>
+                                <li><a href="#">דירוג&nbsp;מעלה</a></li>
+                            </ul>
+                        </nav>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>    
+    <!-- Generic Header end -->
     <main>
         <div class="first-col">
             <nav>
