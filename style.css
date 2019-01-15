@@ -51,6 +51,14 @@ h3 {
     white-space: nowrap;
     color: #fff;
 }
+
+.lower-col > h3 {
+    color: #575757;
+    height: 34px;
+    line-height: 34px;
+    margin-bottom: 15px;
+    border-bottom: 1.5px solid #eaeaea;
+}
 /* contact page */
 /* h3 {
     display: block;
@@ -97,7 +105,6 @@ a:hover {
 
 .col-l {
     float: left;
-    width: 
 }
 
 .main-img, .lower-img {
@@ -106,8 +113,9 @@ a:hover {
 }
 
 .lower-img {
-    border: 1px solid #005ca0;
-    width: 292px;    
+    border: 2px solid #eaeaea;
+    width: 292px;  
+    border-radius: 0 25px 0 0;  
 }
 
 .img-text {
@@ -127,13 +135,32 @@ a:hover {
 }
 .lower-img img {
     width: 250px;
-    border-radius: 0 0 25px 0;
+    /* border-radius: 0 0 25px 0; */
 }
 
 .lower-col {
     width: 292px;
     border-radius: 0 25px 0 0;
+    height: 216px;
+    padding: 0 24px;
 }
+
+.lower-col a {
+    font-size: 13px;
+    color: inherit;
+    text-decoration: underline;
+}
+
+div.details {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.yellow {
+    color: #F8B713;
+    font-size: 15px;
+}
+
 .read-more {
     display: block;
     text-align: left;
@@ -141,9 +168,6 @@ a:hover {
     width: 100%;
 }
 
-.yellow {
-    color: #F8B713;
-}
 /* HOME PAGE  END */
 
 /* 
