@@ -98,7 +98,7 @@ a.logo {
     position: absolute;
     bottom: -20px;
     right: -8px;
-    background: url(/imgs/paz_logo.png) no-repeat 0 0;
+    background: url(imgs/paz_logo.png) no-repeat 0 0;
 }
 
 .pipe {
