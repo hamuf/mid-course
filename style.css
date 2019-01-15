@@ -9,6 +9,7 @@ body {
     text-align: right;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #fff;
+    padding-bottom: 38px;
     /* temp */
     /* background: pink; */
 }
@@ -26,6 +27,7 @@ main {
     width: 900px;
     /* padding-top: 32px; */
     margin-top: 30px;
+    margin-bottom: 30px;
     color: #72716d;
     font-size: 12px;
     /* temp */
@@ -75,6 +77,9 @@ a:hover {
     margin: 0 auto;
 }
 
+.bottom-row {
+    margin-top: 18px;
+}
 .row::after {
     content: "";
     clear: both;
@@ -94,9 +99,14 @@ a:hover {
     float: left;
 }
 
-.main-img {
+.main-img, .lower-img {
     width: 100%;
     position: relative;
+}
+
+.lower-img {
+    border: 1px solid #005ca0;
+    padding: 3px;
 }
 
 .img-text {
@@ -114,11 +124,14 @@ a:hover {
     width: 292px;
     border-radius: 0 0 25px 0;
 }
-.lower-img {
-    border: 1px solid #333;
-    margin-top: 18px;
-    padding: 0 24px;
-    height: 216px;
+.lower-img img {
+    width: 250px;
+    border-radius: 0 0 25px 0;
+}
+
+.lower-col {
+    width: 292px;
+    border-radius: 0 25px 0 0;
 }
 .read-more {
     display: block;
