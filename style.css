@@ -116,6 +116,7 @@ a:hover {
     border: 2px solid #eaeaea;
     width: 292px;  
     border-radius: 0 25px 0 0;  
+    background-image: linear-gradient(to top, rgb(236,236,236) 50%, rgb(250, 250, 250));
 }
 
 .img-text {
