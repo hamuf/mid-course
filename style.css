@@ -97,6 +97,7 @@ a:hover {
 
 .col-l {
     float: left;
+    width: 
 }
 
 .main-img, .lower-img {
@@ -106,7 +107,7 @@ a:hover {
 
 .lower-img {
     border: 1px solid #005ca0;
-    padding: 3px;
+    width: 292px;    
 }
 
 .img-text {
