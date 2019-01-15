@@ -24,7 +24,8 @@ header {
 main {
     margin: 0 auto;
     width: 900px;
-    padding-top: 32px;
+    /* padding-top: 32px; */
+    margin-top: 30px;
     color: #72716d;
     font-size: 12px;
     /* temp */
@@ -45,13 +46,18 @@ h2 {
 }
 
 h3 {
+    white-space: nowrap;
+    color: #fff;
+}
+/* contact page */
+/* h3 {
     display: block;
     color: #6d6d6d;
     font-size: 13px;
     font-weight: bold;
     line-height: 1.2;
     margin: 5px 0;   
-}
+} */
 
 a {
     text-decoration: none;  
@@ -63,6 +69,62 @@ a:hover {
     color: #005CA0;
 }
 
+/* HOME PAGE */
+.row {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.col {
+    width: 316px;
+    padding: 0 12px;
+}
+
+.col-r {
+    float: right;
+}
+
+.col-l {
+    float: left;
+}
+
+.main-img {
+    width: 100%;
+    position: relative;
+}
+
+.img-text {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;;
+    padding: 10px;
+    width: 228px;
+    background-color: #7f7f7f;
+    opacity: 0.87;
+    color: #fff;
+    border-radius: 0 0 25px 0;
+}
+.main-img img {
+    width: 292px;
+    border-radius: 0 0 25px 0;
+}
+
+.read-more {
+    display: block;
+    text-align: left;
+    color: #fff;
+    width: 100%;
+}
+
+/* HOME PAGE  END */
+
+/* 
 .first-col {
     float: right;
     width: 122px;
@@ -97,7 +159,7 @@ a:hover {
 }
 .contact-form label {
     width: 75px;
-}
+} */
 
 
 /* contact - first column */
@@ -121,16 +183,16 @@ a:hover {
     text-decoration: underline;
 }
     
-.form-container {
+    /* bg & radius */
+    /* background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(49%,#f7f7f7), color-stop(51%,#f7f7f7), color-stop(100%,#ececec)); */
+
+/* .form-container {
     border-style: solid solid none solid;
     border-width: 1px;
     border-color: #CCCCCC;
     width: 347px;
     min-height: 332px;
     padding: 12px 18px; 
-
-    /* bg & radius */
-    /* background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(49%,#f7f7f7), color-stop(51%,#f7f7f7), color-stop(100%,#ececec)); */
     background: -webkit-linear-gradient(top, #ffffff 0%,#f7f7f7 49%,#f7f7f7 51%,#ececec 100%);
-}
+} */
     /* Horizontl Menu End */
