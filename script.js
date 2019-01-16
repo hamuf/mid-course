@@ -20,8 +20,3 @@ function changeImage() {
     image.src = path + images[idx];    
     title.innerHTML = titles[idx];
 }
-
-// function hideValidationMsgsOnLoad() {
-//     var passEle = document.getElementById("e-mail");
-//     passEle.setCustomValidity("");
-// }
