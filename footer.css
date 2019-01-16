@@ -2,7 +2,6 @@ footer {
     width: 100%;
     height: 38px;
     position: fixed;
-    /* z-index: 999999; */
     bottom: 0;
     background-image: linear-gradient(to top, rgb(144, 144, 144) 70%, rgb(203,203,203));
 }
@@ -24,7 +23,6 @@ footer nav > ul  {
     position: relative;
     background-image: linear-gradient(to top, rgb(144, 144, 144) 70%, rgb(203,203,203));
 }
-
 
 footer nav {
     width: 900px;
