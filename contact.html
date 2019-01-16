@@ -33,7 +33,7 @@
 
             <nav class="main-nav">
                 <ul>
-                    <li><a href="index.html" class="home active"></a></li>
+                    <li><a href="index.html" class="home"></a></li>
                     <!--class is "home active" on home page-->
                     <li class="pipe">|</li>
                     <li class="dropdown">
@@ -137,38 +137,97 @@
         </div>
     </header>
     <!-- Generic Header end -->
-    <main>
-        <div class="first-col">
-            <nav>
-                <ul class="btn-list">
-                    <li class="btn-item">
-                        <a class="contact-btn" href="#">
-                            <span>צור קשר</span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <div class="second-col">
-            <span class="bread-crumbs">
-                <span><a href="index.html">עמוד הבית</a></span><span>&gt;</span><span>צור קשר</span>
-            </span>
-            <h1>צור קשר</h1>
-            <div class="form-container">
-                <h2>צור קשר</h2>
-                <h3>ליצירת קשר עם קשרי לקוחות אנא מלאו את הפרטים הבאים ואנו נשמח לעמוד לרשותכם :</h3>
-                <span>* השדות המסומנים בכוכבית (*) הינם שדות חובה</span>
-
-                <form class="contact-form" action="#">
-                    <label>* שם פרטי</label>
-                    <input type="text">
-                    <label>* שם משפחה</label>
-                    <input type="text">
-                </form>
+    <main class="page">
+        <div class="row">
+            <div class="col-r">
+                <nav>
+                    <ul class="btn-list" style="background-color: aquamarine">
+                        <li class="btn-item">
+                            <a class="contact-btn" href="#">
+                                <span>צור קשר</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-        </div>
+            <div class="col col-r">
+                <span class="bread-crumbs">
+                    <span><a href="index.html">עמוד הבית</a></span><span>&gt;</span><span>צור קשר</span>
+                </span>
+                <h1>צור קשר</h1>
+                <div class="grey-frame form-container">
+                    <h2>צור קשר</h2>
+                    <h3>ליצירת קשר עם קשרי לקוחות אנא מלאו את הפרטים הבאים ואנו נשמח לעמוד לרשותכם :</h3>
+                    <span>* השדות המסומנים בכוכבית (*) הינם שדות חובה</span>
 
-        <div class="third-col">טור שמאלי</div>
+                    <form class="contact-form" action="#">
+                        <div class="row">
+                            <div class="form-label">
+                                <label for="f-name">* שם פרטי</label>
+                            </div>
+                            <div class="form-input">
+                                <input type="text" name="f-name" id="f-name" required>
+                                <span class="err">שדה חובה</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-label">
+                                <label for="l-name">* שם משפחה</label>
+                            </div>
+                            <div class="form-input">
+                                <input type="text" name="l-name" id="l-name" required>
+                                <span class="err">שדה חובה</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-label">
+                                <label for="phone-num">* טלפון</label>
+                            </div>
+                            <div class="form-input">
+                                <input type="text" name="phone-num" id="phone-num" pattern="0[0-9]{9}" required>
+                                <span class="err">קלט לא מתאים</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-label">
+                                <label for="e-mail">* E-mail</label>
+                            </div>
+                            <div class="form-input">
+                                <input type="text" name="e-mail" id="e-mail" pattern="[A-Za-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required>
+                                <span class="err">קלט לא מתאים</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <textarea name="msg" id="msg" cols="30" rows="5"></textarea>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-l">
+                <div class="grey-frame lower-img">
+                    <div class="lower-col">
+                        <h3>פרטי יצירת קשר</h3>
+                        <div>
+                            <strong>פז חברת נפט בע"מ </strong>
+                            <div>יורו פארק, בניין הולנד</div>
+                            <div>קיבוץ יקום 60972</div>
+                            <div>טל. שירות לקוחות 1-800-774-774</div>
+                            <div>פקס.09-8641714</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grey-frame lower-img second-panel">
+                    <div class="lower-col">
+                        <h3>עוד בפז</h3>
+                        <div>
+                            <strong>ליצירת קשר עם דוברות פז</strong>
+                            <div><a href="#">לחצו כאן &#187;</a></div>
+                            <strong>רוצים לעבוד בפז?</strong>
+                            <div><a href="#">לחצו כאן &#187;</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </main>
     <footer>
         <div class="main-nav-container">
