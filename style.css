@@ -126,7 +126,7 @@ a:hover {
 }
 
 .grey-frame {
-    margin-top: 30px;
+    /* margin-top: 30px; */
     border: 2px solid #eaeaea;
     border-radius: 0 25px 0 0;  
     /* background-image: linear-gradient(to top, rgb(236,236,236) 50%, rgb(250, 250, 250)); */
@@ -160,6 +160,14 @@ a:hover {
     /* border-radius: 0 0 25px 0; */
 }
 
+.spacer {
+    margin-top: 30px;
+}
+
+.lower-col a.def-blue {
+    color: #0000EE;
+}
+
 .lower-col {
     width: 292px;
     border-radius: 0 25px 0 0;
@@ -181,9 +189,12 @@ div.details {
 .yellow {
     /* color: #F8B713; */
     /* font-size: 15px; */
-    padding-right: 18px;
+    padding-right: 10px;
     background-image: url(imgs/read_more_yellow.png);
     background-repeat: no-repeat;
+}
+.yellow:hover {
+    background-image: url(imgs/read_more_blue.png);
 }
 
 .read-more {
@@ -304,10 +315,9 @@ div.form-input {
     float: left;
 }
 
-
 .contact-form {
     width: 245px;
-    margin: 0 auto;
+    margin: 10px  auto;
 }
 .contact-form > .row {
     float: right;
@@ -349,6 +359,22 @@ button:hover {
     width: 100%;
     text-align: left;
 }
+
+.selected-page:hover {
+    color: #005CA0; 
+}
+.selected-page {
+    color: #5c5c5c;
+    line-height: 32px;   
+    font-weight: normal; 
+}
+/* .arrow-left {
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid blue;
+} */
 
 /* input:invalid ~ .err{
     display: block;
