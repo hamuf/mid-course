@@ -6,7 +6,7 @@ function changeImage() {
     var titles = ["טיפז", "yellow click&pick", "שטחי מסחר פז סנטר"];    
 
     var currImg = path + image.src.substring(image.src.lastIndexOf('/')+1);
-    console.log(currImg);
+    // console.log(currImg);
 
     var idx = 0;
     if (currImg == path + images[0]) {
