@@ -80,7 +80,7 @@ a:hover {
 .bottom-row {
     margin-top: 18px;
 }
-.row::after, .area-list::after {
+.row::after {
     content: "";
     clear: both;
     display: table;
@@ -175,15 +175,6 @@ div.details {
     background-image: url(imgs/read_more_blue.png);
 }
 
-.area-div {
-    width: 40px;
-    text-align: left;
-}
-
-.area {
-    float: right;
-    text-decoration: underline;
-}
 .read-more {
     display: block;
     text-align: left;
